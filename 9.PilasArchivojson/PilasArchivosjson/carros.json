@@ -1,0 +1,17 @@
+[
+  {
+    "color": "rojo",
+    "marca": "audi",
+    "precio": 250000
+  },
+  {
+    "color": "gris",
+    "marca": "kia",
+    "precio": 6500
+  },
+  {
+    "color": "blanco",
+    "marca": "subaru",
+    "precio": 500000
+  }
+]
