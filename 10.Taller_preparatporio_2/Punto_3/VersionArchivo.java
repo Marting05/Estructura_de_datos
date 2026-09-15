@@ -8,14 +8,14 @@ public class VersionArchivo {
  
     public VersionArchivo() {
     }
- 
+    
     public VersionArchivo(int numeroVersion, String nombreArchivo, Date fecha, String descripcion) {
         this.numeroVersion = numeroVersion;
         this.nombreArchivo = nombreArchivo;
         this.fecha = fecha;
         this.descripcion = descripcion;
     }
- 
+
     public int getNumeroVersion() {
         return numeroVersion;
     }
@@ -46,11 +46,5 @@ public class VersionArchivo {
  
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
-    }
- 
-    @Override
-    public String toString() {
-        return "Version: " + numeroVersion + " | Archivo: " + nombreArchivo
-                + " | Fecha: " + fecha + " | Descripcion: " + descripcion;
     }
 }
